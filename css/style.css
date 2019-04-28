@@ -12,15 +12,29 @@
 .col-11{width:91.66%;}
 .col-12{width:100%;}
 
-.table{border:1px solid;}
+.menu-top{width:100%; display: block; overflow: hidden}
+.logo img{width:30%; float:left; height: auto; display: inline-block}
+.banner img{width:70%; float:right; height: auto; display: inline-block}
 
+.mainMenu {background: #4e555b;}
+.mainMenu a{color:white; display: inline-block; text-decoration: none; padding: 10px; }
+.mainMenu a:hover{background: #6c757d; color: #fff; }
 
-
-
-
-
-
-
+.cv_h {text-align:center; }
+.sd h2 { background:#666; display:inline-block; }
+.th { background:#666; display:inline-block; }
+.border{
+    width: 300px;
+    height: 300px;
+    background: url("../img/ekram.jpg");
+    border-radius: 50%;
+    border:5px solid #1c7430;
+    box-sizing:border-box;
+}
+.wrap{display: block; width:100%; overflow: hidden;}
+.left{float:left; width:27%; display: inline-block}
+.right{float:right; width:70%; display: inline-block}
+.right p{text-align: justify}
 
 
 

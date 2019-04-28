@@ -7,7 +7,6 @@
             var lastNumberValue = Number(document.getElementById('lastNumber').value);
             var result = firstNumberValue + lastNumberValue;
             document.getElementById('result').value = result;
-
     };
 
     var submitionBtn = document.getElementById('submition');
