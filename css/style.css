@@ -36,17 +36,25 @@
 .right{float:right; width:70%; display: inline-block}
 .right p{text-align: justify}
 
+.row h2{color: #6f42c1}
+.row p{text-align: justify;}
+.row img{width;100%;}
 
+.footer .row {background-color: #212529; }
+.footer .row ul{list-style: none;}
+.footer .row ul li a{text-decoration: none; color: white}
+.footer-bottom .row p {background-color: #4e555b; color: white; text-align: center; height: 50px;}
 
-
-
-
-
-
-
-
-
-
+.singleMenu{}
+.singleMenu ul{list-style: none; display:block; overflow: hidden; background-color: #4e555b ;  }
+.singleMenu ul li{float: left; padding: 10px;  }
+.singleMenu ul li a{color: white; text-decoration: none; }
+.singleContent #red h2{color: red;}
+.singleContent #green h2{color: green;}
+.singleContent #blue h2{color: blue;}
+.singleContent #orange h2{color: orange;}
+.singleContent #yellow h2{color: yellow;}
+.singleContent p{text-align: justify}
 
 
 
