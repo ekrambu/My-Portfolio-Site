@@ -23,6 +23,8 @@
 .cv_h {text-align:center; }
 .sd h2 { background:#666; display:inline-block; }
 .th { background:#666; display:inline-block; }
+
+.home h2{background-color: #6c757d; color: #fff; padding: 10px; }
 .border{
     width: 300px;
     height: 300px;
@@ -31,6 +33,10 @@
     border:5px solid #1c7430;
     box-sizing:border-box;
 }
+.border p{background-color: #6f42c1; color: #34ce57; display: inline-block; padding: 5px; border-radius: 50px; font-size: 16px; border:1px solid red; }
+.border p:hover{background-color: #34ce57; color: #fff }
+.home .right{background-color: #6c757d; color: #fff; padding: 10px; }
+
 .wrap{display: block; width:100%; overflow: hidden;}
 .left{float:left; width:27%; display: inline-block}
 .right{float:right; width:70%; display: inline-block}
@@ -52,10 +58,15 @@
 .conSide{display: block; overflow: hidden; }
 .singleContent{width:70%; float:left;}
 .singleContent #red h2{color: red;}
+.singleContent #red p{background-color: red; color: white; padding: 10px;}
 .singleContent #green h2{color: green;}
+.singleContent #green p{background-color: green; color: white; padding: 10px}
 .singleContent #blue h2{color: blue;}
+.singleContent #blue p{background-color: blue; color: white; padding: 10px}
 .singleContent #orange h2{color: orange;}
+.singleContent #orange p{background-color: orange; color: white; padding: 10px}
 .singleContent #yellow h2{color: yellow;}
+.singleContent #yellow p{background-color: yellow; color: white; padding: 10px}
 .singleContent p{text-align: justify}
 
 .contuctSidebar{width:25%; float: right;}
@@ -69,13 +80,13 @@ body{position:relative;}
 .gallery h2{text-align: center; color: #6f42c1;}
 .gallery p{text-align: center; color: #005cbf; font-size: 16px;}
 .gallery{display: block; overflow: hidden; }
-.box{display: block; float: left; width: 20%; padding: 10px;   }
+.box{display: block; float: left; width: 20%; padding: 10px; overflow: hidden; border-radius: 5px; }
 .box img{width: 100%; border-radius: 5px; transition: .5s all ease; }
 .box img:hover{transform: scale(1.5);}
 
-
-
-
+.about h2{background-color: #34ce57; border-radius: 5px; border:2px solid red; text-align: center; padding: 5px; transition: 0.5s }
+.about h2:hover{background-color: #6f42c1; color: #34ce57; }
+.about img{width: 100%;}
 
 
 
